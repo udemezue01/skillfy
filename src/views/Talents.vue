@@ -83,86 +83,8 @@
       
     </section>
 
-    <!-- End of the first section
- -->
+    <!-- End of the first section-->
 
-
-   <!--  The second section -->
-
-
-       <section class="p-4 bg-transparent rounded-xs flex-wrap xl:flex justify-between px-12">
-
-
-          
-
-      <div class=" font-body tracking-wider pt-32  text-transparent tracking-wider bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug space-y-12">
-
-        <h2 class="font-extrabold text-6xl"> 
-
-            Get access to global <br> opportunities.
-        </h2>
-
-        <p class="text-2xl text-gray-700 tracking-wider leading-normal"> Are you a world class talent, join our global <br> pool of talent to get visibility</p>
-
-        <!-- The call to action button -->
-
-        <div class="">
-        
-
-        <button class ="bg-black font-bold text-white py-4 px-3 rounded-lg tracking-wider ring-1 ring-black"> Get started</button>
-
-        </div>
-
-      <!--   End of call to action button -->
-
-        </div>
-
-
-      <div class="hidden xl:block">
-
-        <img src="/img/images/world.svg" class="h-[700px] w-auto object-center object-cover">
-        
-        
-      </div>
-
-      
-      
-    </section>
-
-      
-
-
-    <!-- End of the second section -->
-
-    <!-- The footer section. -->
-
-    <footer class="bg-black p-4">
-
-      <div>
-        
-
-      </div>
-
-      <div>
-        
-        
-      </div>
-
-      <div>
-        
-        
-      </div>
-
-      <div>
-        
-        
-      </div>
-
-
-    </footer>
-
-
-    <!-- End of the footer section -->
 
 
 
@@ -177,7 +99,7 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'Home',
+  name: 'Talents',
   
 }
 </script>

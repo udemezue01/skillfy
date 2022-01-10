@@ -11,6 +11,12 @@ module.exports = {
 
     ],
   theme: {
+
+    fontFamily:{
+
+    'body':['DM Sans']
+
+    },
     extend: {},
   },
   plugins: [],
