@@ -1,17 +1,19 @@
 <template>
 
-<nav class="flex justify-between items-center py-4 px-8">
+<nav class="flex justify-between items-center py-3 px-12 bg-gray-50 shadow-sm">
 
   <div>
 
-    <h1 class="font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"> Skillfy</h1>
+    <h1 class="font-extrabold text-transparent tracking-wider text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"> Skillfy
+
+    </h1>
 
 
   </div>
 
     <div>
 
-      <button class ="bg-black text-white py-3 px-3 rounded-lg "> Get started</button>
+      <button class ="bg-black font-bold text-white py-2 px-3 rounded-lg tracking-wider"> Get started</button>
 
   </div>
   
