@@ -165,7 +165,7 @@
 
     <!-- The footer section. -->
 
-    <footer class="bg-black p-12 xl:flex flex-wrap justify-between items-center space-y-6 tracking-widest px-6 lg:px-24">
+    <footer class="bg-black p-12 lg:flex flex-wrap justify-between items-center space-y-6 tracking-widest px-6 lg:px-24">
 
       <div class="block space-y-8">
 
