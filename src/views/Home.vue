@@ -16,7 +16,7 @@
 
     <div>
 
-      <router-link to="/login"class="bg-black font-bold text-white py-2 px-3 rounded-lg tracking-wider"> Get started</router-link>
+      <router-link to="/login"class="bg-black font-bold text-white py-2 px-3 rounded-sm tracking-wider"> Get started</router-link>
 
   </div>
   
@@ -34,7 +34,7 @@
 
     <section class="flex-wrap xl:flex justify-between px-6 lg:px-12">
 
-      <div class=" font-body tracking-wider pt-32  text-transparent tracking-wider bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug space-y-8">
+      <div class=" tracking-wider pt-32  text-transparent tracking-wider bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug space-y-8">
 
         <h2 class="font-extrabold text-6xl"> 
 
@@ -47,9 +47,9 @@
         <!-- The call to action button -->
 
         <div class="flex space-x-4">
-          <button class ="bg-black font-bold text-white py-4 px-3 rounded-lg tracking-wider"> Learn how</button>
+          <button class ="bg-black font-bold text-white py-2 px-3 rounded-sm tracking-wider"> Learn how</button>
 
-          <button class ="bg-transparent font-bold text-black py-4 px-3 rounded-lg tracking-wider ring-1 ring-black"> Get started</button>
+          <button class ="bg-transparent font-bold text-black py-2 px-3 rounded-sm tracking-wider ring-1 ring-black"> Get started</button>
 
         </div>
 
@@ -86,7 +86,7 @@
         
       </div>
 
-      <div class=" font-body tracking-wider pt-32  text-transparent tracking-wider bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug space-y-12">
+      <div class=" tracking-wider pt-32  text-transparent tracking-wider bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug space-y-12">
 
         <h2 class="font-extrabold text-6xl"> 
 
@@ -100,7 +100,7 @@
         <div class="">
         
 
-        <button class ="bg-black font-bold text-white py-4 px-3 rounded-lg tracking-wider ring-1 ring-black"> Get started</button>
+        <button class ="bg-black font-bold text-white py-2 px-3 rounded-sm tracking-wider ring-1 ring-black"> Get started</button>
 
         </div>
 
@@ -124,7 +124,7 @@
 
           
 
-      <div class=" font-body tracking-wider pt-32  text-transparent tracking-wider bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug space-y-12">
+      <div class=" tracking-wider pt-32  text-transparent tracking-wider bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug space-y-12">
 
         <h2 class="font-extrabold text-6xl"> 
 
@@ -138,7 +138,7 @@
         <div class="">
         
 
-        <button class ="bg-black font-bold text-white py-4 px-3 rounded-lg tracking-wider ring-1 ring-black"> Get started</button>
+        <button class ="bg-black font-bold text-white py-2 px-3 rounded-sm tracking-wider ring-1 ring-black"> Get started</button>
 
         </div>
 
