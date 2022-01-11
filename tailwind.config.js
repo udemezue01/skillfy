@@ -8,6 +8,7 @@ module.exports = {
       './src/components/Footbar.vue',
     './src/views/Home.vue',
      './src/views/Login.vue',
+     './src/views/Register.vue',
 
   
 
