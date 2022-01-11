@@ -165,26 +165,77 @@
 
     <!-- The footer section. -->
 
-    <footer class="bg-black p-4">
+    <footer class="bg-black p-12 xl:flex flex-wrap justify-between items-center space-y-6 tracking-widest px-6 lg:px-24">
 
-      <div>
+      <div class="block space-y-8">
+
+        <a href="" class="block text-xl font-semibold text-white"> About </a>
+
+        <a href="" class="block text-gray-200"> Careers </a>
+
+        <a href="" class="block text-gray-200"> Press & News </a>
+
+        <a href="" class="block text-gray-200"> Privacy Policy </a>
+
+        <a href="" class="block text-gray-200"> Terms of Service </a>
+
+        <a href="" class="block text-gray-200"> Partnerships </a>
         
 
       </div>
 
-      <div>
+    
+
+      <div class="block space-y-8">
+
+        <a href="" class="block text-xl font-semibold text-white"> Community </a>
+
+        <a href="" class="block text-gray-200"> Events </a>
+
+        <a href="" class="block text-gray-200"> Blog </a>
+
+        <a href="" class="block text-gray-200"> Community Standards </a>
+
+        <a href="" class="block text-gray-200"> Affiliates </a>
+
+        <a href="" class="block text-gray-200"> Invite a Friend </a>
         
-        
+
       </div>
 
-      <div>
-        
-        
+      <div class="block space-y-8">
+
+        <a href="" class="block text-xl font-semibold text-white"> Support </a>
+
+        <a href="" class="block text-gray-200"> Help & Support </a>
+
+        <a href="" class="block text-gray-200"> Trust & Safety </a>
+
+        <a href="" class="block text-gray-200"> Become a Software Developer </a>
+
+        <a href="" class="block text-gray-200"> Sitemap </a>
+
+        <a href="" class="block text-gray-200"> Lifestyle </a>
+
+
+
       </div>
 
-      <div>
+     <div class="block space-y-8">
+
+        <a href="" class="block text-xl font-semibold text-white"> About </a>
+
+        <a href="" class="block text-gray-200"> Careers </a>
+
+        <a href="" class="block text-gray-200"> Press & News </a>
+
+        <a href="" class="block text-gray-200"> Privacy Policy </a>
+
+        <a href="" class="block text-gray-200"> Terms of Service </a>
+
+        <a href="" class="block text-gray-200"> Partnerships </a>
         
-        
+
       </div>
 
 

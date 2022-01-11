@@ -1,100 +1,100 @@
-//
-
-const state =  {
-
-  	user:null,
-
-  };
-
-const getters = {
-
-  	isAuthenticated: state => !!state.userId,
 
 
-  };
+// const state =  {
 
-const mutations =  {
+//   	user:null,
 
-  SET_TOKEN(state, token){
-  		state.token = token
-  	},
+//   };
 
+// const getters = {
 
-  SET_USER_ID(state, userId){
-      state.userId = userId
-    },
-
-  ERR_TOKEN(state, errorMsg){
-
-      state.errorMsg = err
-    }
-  };
+//   	isAuthenticated: state => !!state.userId,
 
 
-const actions  =  {
+//   };
 
-  // The user login API
+// const mutations =  {
 
-  	async userLogin({commit}, loginDetails){
+//   SET_TOKEN(state, token){
+//   		state.token = token
+//   	},
 
-  		try{
 
-  			const { error, user } = await supabase.auth.signIn({
+//   SET_USER_ID(state, userId){
+//       state.userId = userId
+//     },
+
+//   ERR_TOKEN(state, errorMsg){
+
+//       state.errorMsg = err
+//     }
+//   };
+
+
+// const actions  =  {
+
+//   // The user login API
+
+//   	async userLogin({commit}, loginDetails){
+
+//   		try{
+
+//   			const { error, user } = await supabase.auth.signIn({
           
-          email: loginDetails.email,
-          password: loginDetails.password,
-        });
+//           email: loginDetails.email,
+//           password: loginDetails.password,
+//         });
 
-  			if (error) throw error;
-        alert("You've Signed In successfully");
-        await router.push('/')
-        commit('setUser', user.email)
-      } catch (error) {
-        alert(error.error_description || error.message);
-      }
-  	},
+//   			if (error) throw error;
+//         alert("You've Signed In successfully");
+//         await router.push('/')
+//         commit('setUser', user.email)
+//       } catch (error) {
+//         alert(error.error_description || error.message);
+//       }
+//   	},
 
-    // The user registration API
-
-
-    async userRegister({commit}, registerDetails){
-
-      try{
+//     // The user registration API
 
 
+//     async userRegister({commit}, registerDetails){
+
+//       try{
 
 
-      }
-        catch(e){
 
 
-        }
-
-    },
-
-    // The password reset API 
-    async passwordReset({commit}, resetDetails){
-
-      try{
+//       }
+//         catch(e){
 
 
-      }
-      catch(e){
+//         }
+
+//     },
+
+//     // The password reset API 
+//     async passwordReset({commit}, resetDetails){
+
+//       try{
+
+
+//       }
+//       catch(e){
 
         
-      }
+//       }
 
-    },
-
-
-  }
+//     },
 
 
-  export default {
+//   }
 
-    state,
-    getters,
-    mutations,
-    actions
-  }
+
+//   export default {
+
+//     state,
+//     getters,
+//     mutations,
+//     actions
+//   }
 
