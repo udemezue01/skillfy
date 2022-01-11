@@ -1,9 +1,4 @@
-
-// The apolloClient Trigger
-
-import { supabase } from "../../supabase";
-
-
+//
 
 const state =  {
 
