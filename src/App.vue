@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div id="app" class="h-sreen">
 
-    <NavBar/>
+    <!-- <NavBar class="sticky top-0"/> -->
     
     <router-view/>
   </div>

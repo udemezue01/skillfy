@@ -1,6 +1,6 @@
 <template>
 
-<nav class="flex justify-between items-center py-4 bg-gray-50 shadow-sm px-6 lg:px-12">
+<nav class="flex justify-between items-center py-4 bg-gray-50 shadow-sm px-6 sticky top-0 lg:px-12">
 
   <div>
 
@@ -13,7 +13,7 @@
 
     <div>
 
-      <button class ="bg-black font-bold text-white py-2 px-3 rounded-lg tracking-wider"> Get started</button>
+      <router-link to="/talents"class="bg-black font-bold text-white py-2 px-3 rounded-lg tracking-wider"> View Pool</router-link>
 
   </div>
   

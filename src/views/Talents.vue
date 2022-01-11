@@ -1,91 +1,43 @@
 <template>
-  <div class="h-screen space-y-8">
+  <div class=" space-y-8">
 
-  <!--   The Hero section -->
-
-    <section class="flex-wrap xl:flex justify-between px-12">
-
-      <div class=" font-body tracking-wider pt-32  text-transparent tracking-wider bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug space-y-8">
-
-        <h2 class="font-extrabold text-6xl"> 
-
-            Hire and manage <br> global Talents in <br> one place.
-
-        </h2>
-
-        <p class="text-2xl text-gray-700 tracking-wider"> Get all the talent pool in one place</p>
-
-        <!-- The call to action button -->
-
-        <div class="flex space-x-4">
-          <button class ="bg-black font-bold text-white py-4 px-3 rounded-lg tracking-wider"> Learn how</button>
-
-          <button class ="bg-transparent font-bold text-black py-4 px-3 rounded-lg tracking-wider ring-1 ring-black"> Get started</button>
-
-        </div>
-
-      <!--   End of call to action button -->
-
-        </div>
-
-
-
-      <div class="hidden xl:block">
-
-        <img src="/img/images/creativity.svg" class="h-[700px] w-auto object-center object-cover">
-        
-        
-      </div>
+  
+    <section class="grid grid-cols-3 gap-4 ">
       
+     <!--  The card section -->
 
-    </section>
+     <div  class="rounded-xs">
 
-   <!--  End of the Hero section -->
+      <!-- card image -->
 
-   <!-- First section starts -->
+        <img src="/img/images/creativity.svg" class="h-32 w-12 object-center object-cover" />
+   
 
-  <section class="p-4 bg-gray-100 rounded-xs flex-wrap xl:flex justify-between px-12">
+      <!-- End of the card image -->
 
-       
+      <!-- The card body -->
 
-         
+      <div class="p-3 ">
 
-              <div class="hidden xl:block">
 
-        <img src="/img/images/thinking.svg" class="h-[700px] w-auto object-center object-cover">
-        
-        
       </div>
 
-      <div class=" font-body tracking-wider pt-32  text-transparent tracking-wider bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug space-y-12">
+      <!-- End of the card body -->
 
-        <h2 class="font-extrabold text-6xl"> 
 
-            Fish Talents from a <br>global Pool.
-        </h2>
+    </div>
 
-        <p class="text-2xl text-gray-700 tracking-wider leading-normal"> Are you a world class talent, join our global <br> pool of talent to get visibility</p>
 
-        <!-- The call to action button -->
+     <!--  End of the card section -->
 
-        <div class="">
-        
 
-        <button class ="bg-black font-bold text-white py-4 px-3 rounded-lg tracking-wider ring-1 ring-black"> Get started</button>
 
-        </div>
 
-      <!--   End of call to action button -->
 
-        </div>
 
-      
-      
+
+    
     </section>
-
-    <!-- End of the first section-->
-
-
 
 
   </div>
@@ -95,11 +47,44 @@
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
+
 
 export default {
   name: 'Talents',
+
+  data(){
+
+    return {
+
+      "talents":[
+
+        {
+
+          "name":"Udemezue John",
+        },
+
+
+      ]
+
+
+
+    }
+  },
+
+
+  created(){
+      HTTP.get(`https://bio.torre.co/api/bios/johnbenjaminzeus`)
+    .then(response => {
+      // JSON responses are automatically parsed.
+      console.log(response)
+      this.posts = response.data
+    })
+    .catch(e => {
+      this.errors.push(e)
+    })
+
+
+  }
   
 }
 </script>

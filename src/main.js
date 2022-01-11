@@ -9,6 +9,10 @@ Vue.config.productionTip = false
 import '@/assets/css/tailwinds.css'
 
 
+
+
+
+
 new Vue({
   router,
   store,
