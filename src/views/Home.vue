@@ -32,7 +32,7 @@
 
   <!--   The Hero section -->
 
-    <section class="flex-wrap xl:flex justify-between px-6 lg:px-12">
+    <section class="flex-wrap lg:flex justify-between px-6 lg:px-12">
 
       <div class=" tracking-wider pt-32  text-transparent tracking-wider bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug space-y-8">
 
@@ -59,7 +59,7 @@
 
 
 
-      <div class="hidden xl:block">
+      <div class="hidden lg:block">
 
         <img src="/img/images/creativity.svg" class="h-[700px] w-auto object-center object-cover">
         
@@ -73,13 +73,13 @@
 
    <!-- First section starts -->
 
-  <section class="p-4 bg-gray-100 rounded-xs flex-wrap xl:flex justify-between px-6 lg:px-12">
+  <section class="p-4 bg-gray-100 rounded-xs flex-wrap lg:flex justify-between px-6 lg:px-12">
 
        
 
          
 
-              <div class="hidden xl:block">
+    <div class="hidden lg:block">
 
         <img src="/img/images/thinking.svg" class="h-[700px] w-auto object-center object-cover">
         
@@ -119,7 +119,7 @@
    <!--  The second section -->
 
 
-       <section class="p-4 bg-transparent rounded-xs flex-wrap xl:flex justify-between px-6 lg:px-12">
+       <section class="p-4 bg-transparent rounded-xs flex-wrap lg:flex justify-between px-6 lg:px-12">
 
 
           
@@ -147,7 +147,7 @@
         </div>
 
 
-      <div class="hidden xl:block">
+      <div class="hidden lg:block">
 
         <img src="/img/images/world.svg" class="h-[700px] w-auto object-center object-cover">
         
