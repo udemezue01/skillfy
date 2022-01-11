@@ -3,7 +3,7 @@
 
   <!--   The Hero section -->
 
-    <section class="flex-wrap xl:flex justify-between px-12">
+    <section class="flex-wrap xl:flex justify-between px-6 lg:px-12">
 
       <div class=" font-body tracking-wider pt-32  text-transparent tracking-wider bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 leading-snug space-y-8">
 
@@ -44,7 +44,7 @@
 
    <!-- First section starts -->
 
-  <section class="p-4 bg-gray-100 rounded-xs flex-wrap xl:flex justify-between px-12">
+  <section class="p-4 bg-gray-100 rounded-xs flex-wrap xl:flex justify-between px-6 lg:px-12">
 
        
 
@@ -90,7 +90,7 @@
    <!--  The second section -->
 
 
-       <section class="p-4 bg-transparent rounded-xs flex-wrap xl:flex justify-between px-12">
+       <section class="p-4 bg-transparent rounded-xs flex-wrap xl:flex justify-between px-6 lg:px-12">
 
 
           
