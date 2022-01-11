@@ -57,7 +57,7 @@
 </template>
 
 <script>
-
+import { mapActions } from 'vuex'
 
 export default {
   name: 'Login',
@@ -78,6 +78,17 @@ export default {
 
     
   },
+
+  methods:{
+
+    ...mapActions(['userLogin']),
+
+    loginUser: function(){
+      this.userLogin(this.loginDetails)
+      .then(() => this.$router.push('/'))
+
+ },
+  }
 
 
 }
