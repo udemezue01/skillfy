@@ -1,4 +1,4 @@
-
+// import firebase from "../../firebase";
 
 // const state =  {
 
@@ -39,7 +39,7 @@
 
 //   		try{
 
-//   			const { error, user } = await supabase.auth.signIn({
+//   			const { error, user } = await firebase.auth().createUserWithEmailAndPassword({
           
 //           email: loginDetails.email,
 //           password: loginDetails.password,
@@ -48,7 +48,7 @@
 //   			if (error) throw error;
 //         alert("You've Signed In successfully");
 //         await router.push('/')
-//         commit('setUser', user.email)
+ 
 //       } catch (error) {
 //         alert(error.error_description || error.message);
 //       }
